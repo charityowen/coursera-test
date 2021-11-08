@@ -6,7 +6,7 @@
 h1 {
  text-align:center;
  margin: 100px;
- font-size:75%;
+ font-size:1.75em;
 }
 .row {
   background-color: #999999;
@@ -17,7 +17,7 @@ h1 {
  #chicken {
   background-color:#D59898;
   border: 1px solid black;
-  font-size: 25%;
+  font-size: 1.25em;
   float: right;
   text-align: center;
   width: 130px;
@@ -27,7 +27,7 @@ h1 {
   background-color: #C14543;
   color: white;
   border: 1px solid black;
-  font-size: 25%;
+  font-size: 1.25em;
   float: right;
   text-align: center;
   width: 130px;
@@ -36,7 +36,7 @@ h1 {
 #sushi {
   background-color: #E5D198;
   border: 1px solid black;
-  font-size: 25%;
+  font-size: 1.25em;
   float: right;
   text-align: center;
   width: 130px;
