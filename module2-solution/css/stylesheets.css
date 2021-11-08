@@ -25,6 +25,7 @@ h1 {
 }
 #beef {
   background-color: #C14543;
+  text-color: white;
   border: 1px solid black;
   float: right;
   text-align: center;
