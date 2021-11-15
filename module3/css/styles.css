@@ -1,0 +1,82 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 600;
+  box-sizing: border-box;
+  color: black;
+}
+.navbar-brand h1 {
+  font-weight: bolder;
+  color: black;
+  margin-top: -10px;
+  margin-bottom: 0;
+  position: absolute;
+  left: 15px;
+
+  }
+#header-nav {
+  border-radius: O;
+  background-color: grey;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 0;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+#nav-list a:hover {
+  background: #e0e1e2;
+}
+#collapsable-nav {
+  background-color: #EFF1F3;
+  overflow: hidden;
+}
+#menu-tile {
+  background: grey;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: justify;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#menu-tile h3 {
+   font-weight: bold;
+ }
+#menu-tile a{
+  text-transform: uppercase;
+   color: black;
+ }
+#menu-tile a:hover{
+  text-decoration: none;
+}
+ #top-header {
+   font-weight: bold;
+   margin-top: 40px;
+   margin-bottom: 40px;
+ }
+@media (max-width: 479px) {
+   #header-nav {
+     width: 100$;
+   }
+   .navbar-brand h1 {
+     padding-top: 5px;
+     font-size: .8em;
+   }
+   .col-xxs-12 {
+     position: relative;
+     min-height: 1px;
+     padding-right: 15px;
+     padding-left: 15px;
+     float:left;
+     width: 100%;
+   }
+ }
